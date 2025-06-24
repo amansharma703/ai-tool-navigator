@@ -5,7 +5,6 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { ExternalLink, ArrowLeft } from 'lucide-react';
 import * as Icons from 'lucide-react';
-import { DivideIcon as LucideIcon } from 'lucide-react';
 
 interface Tool {
   name: string;
@@ -29,7 +28,7 @@ interface ToolListProps {
 }
 
 export default function ToolList({ category, onBack }: ToolListProps) {
-  const IconComponent = (Icons as any)[category.icon] as LucideIcon;
+  const IconComponent = (Icons as any)[category.icon] as React.ElementType;
 
   return (
     <div className="space-y-6">

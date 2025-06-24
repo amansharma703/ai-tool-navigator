@@ -3,7 +3,6 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import * as Icons from 'lucide-react';
-import { DivideIcon as LucideIcon } from 'lucide-react';
 
 interface CategoryCardProps {
   category: {
@@ -25,7 +24,7 @@ interface CategoryCardProps {
 
 export default function CategoryCard({ category, onClick, isSelected }: CategoryCardProps) {
   // Dynamically get the icon component
-  const IconComponent = (Icons as any)[category.icon] as LucideIcon;
+  const IconComponent = (Icons as any)[category.icon] as React.ElementType;
 
   return (
     <Card 
