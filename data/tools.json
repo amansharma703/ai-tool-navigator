@@ -1,0 +1,268 @@
+{
+  "categories": [
+    {
+      "id": "developers",
+      "name": "Developers",
+      "icon": "Code2",
+      "description": "AI-powered development tools and coding assistants",
+      "color": "from-blue-500 to-cyan-500",
+      "tools": [
+        {
+          "name": "Cursor",
+          "description": "AI-native code editor with intelligent code completion and generation",
+          "website": "https://cursor.sh",
+          "tags": ["Code Editor", "AI Completion"]
+        },
+        {
+          "name": "GitHub Copilot",
+          "description": "Code completion powered by GitHub's vast codebase and AI",
+          "website": "https://github.com/features/copilot",
+          "tags": ["Code Completion", "GitHub"]
+        },
+        {
+          "name": "Tabnine",
+          "description": "AI assistant for software developers with personalized suggestions",
+          "website": "https://tabnine.com",
+          "tags": ["Code Assistant", "Personalized"]
+        },
+        {
+          "name": "Replit Ghostwriter",
+          "description": "AI pair programmer that helps you code faster",
+          "website": "https://replit.com/ghostwriter",
+          "tags": ["Pair Programming", "Cloud IDE"]
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "name": "Research & Knowledge",
+      "icon": "BookOpen",
+      "description": "Tools for research, learning, and knowledge management",
+      "color": "from-emerald-500 to-teal-500",
+      "tools": [
+        {
+          "name": "Perplexity AI",
+          "description": "AI-powered answer engine that provides accurate, real-time information",
+          "website": "https://perplexity.ai",
+          "tags": ["Search", "Real-time"]
+        },
+        {
+          "name": "Semantic Scholar",
+          "description": "AI-powered research tool for scientific literature",
+          "website": "https://semanticscholar.org",
+          "tags": ["Academic", "Literature"]
+        },
+        {
+          "name": "Elicit",
+          "description": "AI research assistant that helps you analyze research papers",
+          "website": "https://elicit.org",
+          "tags": ["Research Assistant", "Paper Analysis"]
+        },
+        {
+          "name": "Consensus",
+          "description": "AI-powered search engine for research papers",
+          "website": "https://consensus.app",
+          "tags": ["Academic Search", "Evidence-based"]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "name": "Writing & Content",
+      "icon": "PenTool",
+      "description": "AI assistants for writing, editing, and content creation",
+      "color": "from-purple-500 to-pink-500",
+      "tools": [
+        {
+          "name": "Claude",
+          "description": "Advanced AI assistant for writing, analysis, and creative tasks",
+          "website": "https://claude.ai",
+          "tags": ["Writing Assistant", "Analysis"]
+        },
+        {
+          "name": "Grammarly",
+          "description": "AI-powered writing assistant for grammar, tone, and clarity",
+          "website": "https://grammarly.com",
+          "tags": ["Grammar", "Writing Enhancement"]
+        },
+        {
+          "name": "Jasper",
+          "description": "AI content platform for marketing and business writing",
+          "website": "https://jasper.ai",
+          "tags": ["Marketing", "Business Writing"]
+        },
+        {
+          "name": "Copy.ai",
+          "description": "AI copywriter for marketing content and campaigns",
+          "website": "https://copy.ai",
+          "tags": ["Copywriting", "Marketing"]
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "name": "Audio & Voice",
+      "icon": "Mic",
+      "description": "Voice synthesis, audio editing, and speech tools",
+      "color": "from-orange-500 to-red-500",
+      "tools": [
+        {
+          "name": "ElevenLabs",
+          "description": "Advanced AI voice cloning and text-to-speech technology",
+          "website": "https://elevenlabs.io",
+          "tags": ["Voice Cloning", "Text-to-Speech"]
+        },
+        {
+          "name": "Descript",
+          "description": "Audio editing via text interface with AI-powered features",
+          "website": "https://descript.com",
+          "tags": ["Audio Editing", "Transcription"]
+        },
+        {
+          "name": "Murf",
+          "description": "AI voice generator for voiceovers and presentations",
+          "website": "https://murf.ai",
+          "tags": ["Voiceover", "Presentations"]
+        },
+        {
+          "name": "Otter.ai",
+          "description": "AI meeting assistant with real-time transcription",
+          "website": "https://otter.ai",
+          "tags": ["Transcription", "Meeting Notes"]
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "name": "Design & Images",
+      "icon": "Palette",
+      "description": "AI-powered design tools and image generation",
+      "color": "from-indigo-500 to-purple-500",
+      "tools": [
+        {
+          "name": "Midjourney",
+          "description": "AI image generator creating stunning artwork from text prompts",
+          "website": "https://midjourney.com",
+          "tags": ["Image Generation", "Artwork"]
+        },
+        {
+          "name": "DALL-E 3",
+          "description": "OpenAI's advanced text-to-image generation model",
+          "website": "https://openai.com/dall-e-3",
+          "tags": ["Image Generation", "OpenAI"]
+        },
+        {
+          "name": "Canva AI",
+          "description": "AI-powered design platform for graphics and presentations",
+          "website": "https://canva.com",
+          "tags": ["Graphic Design", "Templates"]
+        },
+        {
+          "name": "Figma AI",
+          "description": "AI features in Figma for design automation and assistance",
+          "website": "https://figma.com",
+          "tags": ["UI Design", "Collaboration"]
+        }
+      ]
+    },
+    {
+      "id": "video",
+      "name": "Video Creation",
+      "icon": "Video",
+      "description": "AI tools for video editing, generation, and production",
+      "color": "from-pink-500 to-rose-500",
+      "tools": [
+        {
+          "name": "Runway",
+          "description": "AI-powered creative suite for video editing and generation",
+          "website": "https://runwayml.com",
+          "tags": ["Video Generation", "Creative Suite"]
+        },
+        {
+          "name": "Pika Labs",
+          "description": "AI video generator creating videos from text and images",
+          "website": "https://pika.art",
+          "tags": ["Text-to-Video", "Image-to-Video"]
+        },
+        {
+          "name": "Synthesia",
+          "description": "AI video creation platform with virtual presenters",
+          "website": "https://synthesia.io",
+          "tags": ["Virtual Presenters", "Corporate Videos"]
+        },
+        {
+          "name": "Loom AI",
+          "description": "AI-enhanced screen recording and video messaging",
+          "website": "https://loom.com",
+          "tags": ["Screen Recording", "Video Messaging"]
+        }
+      ]
+    },
+    {
+      "id": "music",
+      "name": "Music & Sound",
+      "icon": "Music",
+      "description": "AI-driven music composition and audio production",
+      "color": "from-green-500 to-emerald-500",
+      "tools": [
+        {
+          "name": "Suno",
+          "description": "AI music generator creating songs from text descriptions",
+          "website": "https://suno.ai",
+          "tags": ["Music Generation", "Song Creation"]
+        },
+        {
+          "name": "AIVA",
+          "description": "AI composer for soundtracks and classical music",
+          "website": "https://aiva.ai",
+          "tags": ["Classical Music", "Soundtracks"]
+        },
+        {
+          "name": "Boomy",
+          "description": "AI music creation platform for instant song generation",
+          "website": "https://boomy.com",
+          "tags": ["Instant Music", "Publishing"]
+        },
+        {
+          "name": "Soundraw",
+          "description": "AI music generator for content creators and businesses",
+          "website": "https://soundraw.io",
+          "tags": ["Content Creation", "Royalty-free"]
+        }
+      ]
+    },
+    {
+      "id": "productivity",
+      "name": "Productivity & Automation",
+      "icon": "Zap",
+      "description": "AI tools to boost productivity and automate workflows",
+      "color": "from-yellow-500 to-orange-500",
+      "tools": [
+        {
+          "name": "Notion AI",
+          "description": "AI-powered workspace for notes, docs, and project management",
+          "website": "https://notion.so",
+          "tags": ["Workspace", "Note-taking"]
+        },
+        {
+          "name": "Zapier AI",
+          "description": "AI automation platform connecting apps and workflows",
+          "website": "https://zapier.com",
+          "tags": ["Automation", "Workflow"]
+        },
+        {
+          "name": "Monday.com AI",
+          "description": "AI-enhanced project management and team collaboration",
+          "website": "https://monday.com",
+          "tags": ["Project Management", "Team Collaboration"]
+        },
+        {
+          "name": "ClickUp AI",
+          "description": "AI-powered productivity platform for teams",
+          "website": "https://clickup.com",
+          "tags": ["Task Management", "AI Assistant"]
+        }
+      ]
+    }
+  ]
+}
