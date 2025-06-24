@@ -26,27 +26,36 @@ export default function SuggestToolForm({ onBack, categories }: SuggestToolFormP
     submitterEmail: ''
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
-    // Here you would typically send the data to your backend
-    console.log('Tool suggestion submitted:', formData);
-    
-    toast({
-      title: "Thank you for your suggestion!",
-      description: "We'll review your tool submission and add it to our directory if it meets our criteria.",
-    });
 
-    // Reset form
-    setFormData({
-      toolName: '',
-      website: '',
-      description: '',
-      category: '',
-      tags: '',
-      submitterName: '',
-      submitterEmail: ''
-    });
+    try {
+      await fetch('/api/suggest-tool', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+      toast({
+        title: "Thank you for your suggestion!",
+        description: "We'll review your tool submission and add it to our directory if it meets our criteria.",
+      });
+      // Reset form
+      setFormData({
+        toolName: '',
+        website: '',
+        description: '',
+        category: '',
+        tags: '',
+        submitterName: '',
+        submitterEmail: ''
+      });
+    } catch (error) {
+      toast({
+        title: "Submission failed",
+        description: "There was an error saving your suggestion. Please try again.",
+        variant: "destructive",
+      });
+    }
   };
 
   const handleInputChange = (field: string, value: string) => {
@@ -74,7 +83,7 @@ export default function SuggestToolForm({ onBack, categories }: SuggestToolFormP
             Suggest an AI Tool
           </CardTitle>
           <p className="text-muted-foreground">
-            Help us expand our directory by suggesting amazing AI tools you've discovered
+            Help us expand our directory by suggesting amazing AI tools you&apos;ve discovered
           </p>
         </CardHeader>
         <CardContent>
