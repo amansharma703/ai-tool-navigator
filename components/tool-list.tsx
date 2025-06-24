@@ -46,9 +46,9 @@ export default function ToolList({ category, onBack }: ToolListProps) {
       </div>
 
       <div className="flex items-center space-x-4 mb-8">
-        <div className={`p-4 rounded-xl bg-gradient-to-r ${category.color} shadow-lg`}>
+        <div className={`p-4 rounded-xl bg-gradient-to-r ${category.color} shadow-lg category-icon`}>
           {IconComponent && (
-            <IconComponent className="h-8 w-8 text-white" />
+            <IconComponent className="h-8 w-8 text-white drop-shadow-sm" />
           )}
         </div>
         <div>

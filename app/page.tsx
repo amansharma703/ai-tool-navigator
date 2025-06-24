@@ -6,7 +6,9 @@ import CategoryCard from '@/components/category-card';
 import ToolList from '@/components/tool-list';
 import SuggestToolForm from '@/components/suggest-tool-form';
 import { Button } from '@/components/ui/button';
-import { Sparkles, ArrowRight, TrendingUp, Users, Star } from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
+import { Sparkles, ArrowRight, TrendingUp, Users, Star, ExternalLink } from 'lucide-react';
 import toolsData from '@/data/tools.json';
 
 interface Tool {
@@ -50,6 +52,10 @@ export default function Home() {
   };
 
   const totalTools = categories.reduce((acc, category) => acc + category.tools.length, 0);
+
+  // Get daily life tools for featured section
+  const dailyLifeCategory = categories.find(cat => cat.id === 'daily-life');
+  const featuredDailyTools = dailyLifeCategory?.tools.slice(0, 3) || [];
 
   const renderContent = () => {
     switch (activeSection) {
@@ -161,6 +167,93 @@ export default function Home() {
               </div>
             </div>
 
+            {/* Featured Daily Life Tools */}
+            <div className="space-y-8">
+              <div className="text-center space-y-4">
+                <h2 className="text-3xl md:text-4xl font-bold text-foreground">
+                  Essential Daily AI Tools
+                </h2>
+                <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                  Start your AI journey with these powerful tools for everyday tasks
+                </p>
+              </div>
+              
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {featuredDailyTools.map((tool, index) => (
+                  <Card key={index} className="group hover:shadow-lg transition-all duration-300 border-2 hover:border-primary/50">
+                    <CardHeader className="pb-3">
+                      <div className="flex items-start justify-between">
+                        <CardTitle className="text-xl font-semibold group-hover:text-primary transition-colors">
+                          {tool.name}
+                        </CardTitle>
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          asChild
+                          className="opacity-0 group-hover:opacity-100 transition-opacity"
+                        >
+                          <a
+                            href={tool.website}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center space-x-1"
+                          >
+                            <ExternalLink className="h-4 w-4" />
+                          </a>
+                        </Button>
+                      </div>
+                    </CardHeader>
+                    <CardContent className="space-y-4">
+                      <p className="text-muted-foreground leading-relaxed">
+                        {tool.description}
+                      </p>
+                      
+                      <div className="flex flex-wrap gap-2">
+                        {tool.tags.slice(0, 2).map((tag, tagIndex) => (
+                          <Badge
+                            key={tagIndex}
+                            variant="secondary"
+                            className="text-xs"
+                          >
+                            {tag}
+                          </Badge>
+                        ))}
+                      </div>
+                      
+                      <div className="pt-2">
+                        <Button
+                          asChild
+                          className="w-full bg-gradient-to-r from-violet-500 to-purple-500 hover:from-violet-600 hover:to-purple-600"
+                        >
+                          <a
+                            href={tool.website}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-center space-x-2"
+                          >
+                            <span>Try {tool.name}</span>
+                            <ExternalLink className="h-4 w-4" />
+                          </a>
+                        </Button>
+                      </div>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+              
+              <div className="text-center pt-4">
+                <Button 
+                  variant="outline" 
+                  size="lg"
+                  onClick={() => handleCategoryClick(dailyLifeCategory!)}
+                  className="text-lg px-8 py-3"
+                >
+                  View All Daily Life Tools
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+              </div>
+            </div>
+
             {/* Featured Categories Preview */}
             <div className="space-y-8">
               <div className="text-center space-y-4">
@@ -168,12 +261,12 @@ export default function Home() {
                   Popular Categories
                 </h2>
                 <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                  Start exploring with these trending AI tool categories
+                  Explore specialized AI tools for different use cases
                 </p>
               </div>
               
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                {categories.slice(0, 4).map((category) => (
+                {categories.filter(cat => cat.id !== 'daily-life').slice(0, 4).map((category) => (
                   <CategoryCard
                     key={category.id}
                     category={category}

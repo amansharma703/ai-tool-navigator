@@ -37,9 +37,9 @@ export default function CategoryCard({ category, onClick, isSelected }: Category
     >
       <CardContent className="p-6">
         <div className="flex items-center space-x-4 mb-4">
-          <div className={`p-3 rounded-lg bg-gradient-to-r ${category.color} shadow-md`}>
+          <div className={`p-3 rounded-lg bg-gradient-to-r ${category.color} shadow-md category-icon`}>
             {IconComponent && (
-              <IconComponent className="h-6 w-6 text-white" />
+              <IconComponent className="h-6 w-6 text-white drop-shadow-sm" />
             )}
           </div>
           <div className="flex-1">

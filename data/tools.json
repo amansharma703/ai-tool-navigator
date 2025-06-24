@@ -263,6 +263,51 @@
           "tags": ["Task Management", "AI Assistant"]
         }
       ]
+    },
+    {
+      "id": "daily-life",
+      "name": "Daily Life & Personal",
+      "icon": "Home",
+      "description": "AI tools for everyday tasks and personal assistance",
+      "color": "from-violet-500 to-purple-500",
+      "tools": [
+        {
+          "name": "ChatGPT",
+          "description": "Conversational AI assistant for questions, writing, and problem-solving",
+          "website": "https://chat.openai.com",
+          "tags": ["Conversational AI", "General Purpose"]
+        },
+        {
+          "name": "Google Bard",
+          "description": "Google's AI chatbot for creative and informative conversations",
+          "website": "https://bard.google.com",
+          "tags": ["Google AI", "Creative Writing"]
+        },
+        {
+          "name": "Replika",
+          "description": "AI companion for emotional support and conversation",
+          "website": "https://replika.ai",
+          "tags": ["AI Companion", "Mental Health"]
+        },
+        {
+          "name": "Todoist AI",
+          "description": "Smart task management with AI-powered scheduling and suggestions",
+          "website": "https://todoist.com",
+          "tags": ["Task Management", "Smart Scheduling"]
+        },
+        {
+          "name": "Cleo",
+          "description": "AI financial assistant for budgeting and money management",
+          "website": "https://web.meetcleo.com",
+          "tags": ["Finance", "Budgeting"]
+        },
+        {
+          "name": "Youper",
+          "description": "AI emotional health assistant for mood tracking and mental wellness",
+          "website": "https://youper.ai",
+          "tags": ["Mental Health", "Mood Tracking"]
+        }
+      ]
     }
   ]
 }
