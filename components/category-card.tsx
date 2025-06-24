@@ -22,9 +22,22 @@ interface CategoryCardProps {
   isSelected?: boolean;
 }
 
+const colorClassMap: Record<string, string> = {
+  "from-blue-500 to-cyan-500": "from-blue-500 to-cyan-500",
+  "from-emerald-500 to-teal-500": "from-emerald-500 to-teal-500",
+  "from-purple-500 to-pink-500": "from-purple-500 to-pink-500",
+  "from-orange-500 to-red-500": "from-orange-500 to-red-500",
+  "from-indigo-500 to-purple-500": "from-indigo-500 to-purple-500",
+  "from-pink-500 to-rose-500": "from-pink-500 to-rose-500",
+  "from-green-500 to-emerald-500": "from-green-500 to-emerald-500",
+  "from-yellow-500 to-orange-500": "from-yellow-500 to-orange-500",
+  "from-violet-500 to-purple-500": "from-violet-500 to-purple-500",
+};
+
 export default function CategoryCard({ category, onClick, isSelected }: CategoryCardProps) {
   // Dynamically get the icon component
   const IconComponent = (Icons as any)[category.icon] as React.ElementType;
+  const gradientClass = colorClassMap[category.color] || "from-blue-500 to-cyan-500";
 
   return (
     <Card 
@@ -37,7 +50,7 @@ export default function CategoryCard({ category, onClick, isSelected }: Category
     >
       <CardContent className="p-6">
         <div className="flex items-center space-x-4 mb-4">
-          <div className={`p-3 rounded-lg bg-gradient-to-r ${category.color} shadow-md category-icon`}>
+          <div className={`p-3 rounded-lg bg-gradient-to-r ${gradientClass} shadow-md category-icon`}>
             {IconComponent && (
               <IconComponent className="h-6 w-6 text-white drop-shadow-sm" />
             )}

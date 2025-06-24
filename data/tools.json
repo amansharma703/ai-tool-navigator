@@ -11,25 +11,37 @@
           "name": "Cursor",
           "description": "AI-native code editor with intelligent code completion and generation",
           "website": "https://cursor.sh",
-          "tags": ["Code Editor", "AI Completion"]
+          "tags": [
+            "Code Editor",
+            "AI Completion"
+          ]
         },
         {
           "name": "GitHub Copilot",
           "description": "Code completion powered by GitHub's vast codebase and AI",
           "website": "https://github.com/features/copilot",
-          "tags": ["Code Completion", "GitHub"]
+          "tags": [
+            "Code Completion",
+            "GitHub"
+          ]
         },
         {
           "name": "Tabnine",
           "description": "AI assistant for software developers with personalized suggestions",
           "website": "https://tabnine.com",
-          "tags": ["Code Assistant", "Personalized"]
+          "tags": [
+            "Code Assistant",
+            "Personalized"
+          ]
         },
         {
           "name": "Replit Ghostwriter",
           "description": "AI pair programmer that helps you code faster",
           "website": "https://replit.com/ghostwriter",
-          "tags": ["Pair Programming", "Cloud IDE"]
+          "tags": [
+            "Pair Programming",
+            "Cloud IDE"
+          ]
         }
       ]
     },
@@ -38,31 +50,43 @@
       "name": "Research & Knowledge",
       "icon": "BookOpen",
       "description": "Tools for research, learning, and knowledge management",
-      "color": "from-blue-500 to-cyan-500",
+      "color": "from-emerald-500 to-teal-500",
       "tools": [
         {
           "name": "Perplexity AI",
           "description": "AI-powered answer engine that provides accurate, real-time information",
           "website": "https://perplexity.ai",
-          "tags": ["Search", "Real-time"]
+          "tags": [
+            "Search",
+            "Real-time"
+          ]
         },
         {
           "name": "Semantic Scholar",
           "description": "AI-powered research tool for scientific literature",
           "website": "https://semanticscholar.org",
-          "tags": ["Academic", "Literature"]
+          "tags": [
+            "Academic",
+            "Literature"
+          ]
         },
         {
           "name": "Elicit",
           "description": "AI research assistant that helps you analyze research papers",
           "website": "https://elicit.org",
-          "tags": ["Research Assistant", "Paper Analysis"]
+          "tags": [
+            "Research Assistant",
+            "Paper Analysis"
+          ]
         },
         {
           "name": "Consensus",
           "description": "AI-powered search engine for research papers",
           "website": "https://consensus.app",
-          "tags": ["Academic Search", "Evidence-based"]
+          "tags": [
+            "Academic Search",
+            "Evidence-based"
+          ]
         }
       ]
     },
@@ -77,25 +101,37 @@
           "name": "Claude",
           "description": "Advanced AI assistant for writing, analysis, and creative tasks",
           "website": "https://claude.ai",
-          "tags": ["Writing Assistant", "Analysis"]
+          "tags": [
+            "Writing Assistant",
+            "Analysis"
+          ]
         },
         {
           "name": "Grammarly",
           "description": "AI-powered writing assistant for grammar, tone, and clarity",
           "website": "https://grammarly.com",
-          "tags": ["Grammar", "Writing Enhancement"]
+          "tags": [
+            "Grammar",
+            "Writing Enhancement"
+          ]
         },
         {
           "name": "Jasper",
           "description": "AI content platform for marketing and business writing",
           "website": "https://jasper.ai",
-          "tags": ["Marketing", "Business Writing"]
+          "tags": [
+            "Marketing",
+            "Business Writing"
+          ]
         },
         {
           "name": "Copy.ai",
           "description": "AI copywriter for marketing content and campaigns",
           "website": "https://copy.ai",
-          "tags": ["Copywriting", "Marketing"]
+          "tags": [
+            "Copywriting",
+            "Marketing"
+          ]
         }
       ]
     },
@@ -110,25 +146,37 @@
           "name": "ElevenLabs",
           "description": "Advanced AI voice cloning and text-to-speech technology",
           "website": "https://elevenlabs.io",
-          "tags": ["Voice Cloning", "Text-to-Speech"]
+          "tags": [
+            "Voice Cloning",
+            "Text-to-Speech"
+          ]
         },
         {
           "name": "Descript",
           "description": "Audio editing via text interface with AI-powered features",
           "website": "https://descript.com",
-          "tags": ["Audio Editing", "Transcription"]
+          "tags": [
+            "Audio Editing",
+            "Transcription"
+          ]
         },
         {
           "name": "Murf",
           "description": "AI voice generator for voiceovers and presentations",
           "website": "https://murf.ai",
-          "tags": ["Voiceover", "Presentations"]
+          "tags": [
+            "Voiceover",
+            "Presentations"
+          ]
         },
         {
           "name": "Otter.ai",
           "description": "AI meeting assistant with real-time transcription",
           "website": "https://otter.ai",
-          "tags": ["Transcription", "Meeting Notes"]
+          "tags": [
+            "Transcription",
+            "Meeting Notes"
+          ]
         }
       ]
     },
@@ -143,25 +191,37 @@
           "name": "Midjourney",
           "description": "AI image generator creating stunning artwork from text prompts",
           "website": "https://midjourney.com",
-          "tags": ["Image Generation", "Artwork"]
+          "tags": [
+            "Image Generation",
+            "Artwork"
+          ]
         },
         {
           "name": "DALL-E 3",
           "description": "OpenAI's advanced text-to-image generation model",
           "website": "https://openai.com/dall-e-3",
-          "tags": ["Image Generation", "OpenAI"]
+          "tags": [
+            "Image Generation",
+            "OpenAI"
+          ]
         },
         {
           "name": "Canva AI",
           "description": "AI-powered design platform for graphics and presentations",
           "website": "https://canva.com",
-          "tags": ["Graphic Design", "Templates"]
+          "tags": [
+            "Graphic Design",
+            "Templates"
+          ]
         },
         {
           "name": "Figma AI",
           "description": "AI features in Figma for design automation and assistance",
           "website": "https://figma.com",
-          "tags": ["UI Design", "Collaboration"]
+          "tags": [
+            "UI Design",
+            "Collaboration"
+          ]
         }
       ]
     },
@@ -176,25 +236,37 @@
           "name": "Runway",
           "description": "AI-powered creative suite for video editing and generation",
           "website": "https://runwayml.com",
-          "tags": ["Video Generation", "Creative Suite"]
+          "tags": [
+            "Video Generation",
+            "Creative Suite"
+          ]
         },
         {
           "name": "Pika Labs",
           "description": "AI video generator creating videos from text and images",
           "website": "https://pika.art",
-          "tags": ["Text-to-Video", "Image-to-Video"]
+          "tags": [
+            "Text-to-Video",
+            "Image-to-Video"
+          ]
         },
         {
           "name": "Synthesia",
           "description": "AI video creation platform with virtual presenters",
           "website": "https://synthesia.io",
-          "tags": ["Virtual Presenters", "Corporate Videos"]
+          "tags": [
+            "Virtual Presenters",
+            "Corporate Videos"
+          ]
         },
         {
           "name": "Loom AI",
           "description": "AI-enhanced screen recording and video messaging",
           "website": "https://loom.com",
-          "tags": ["Screen Recording", "Video Messaging"]
+          "tags": [
+            "Screen Recording",
+            "Video Messaging"
+          ]
         }
       ]
     },
@@ -209,25 +281,37 @@
           "name": "Suno",
           "description": "AI music generator creating songs from text descriptions",
           "website": "https://suno.ai",
-          "tags": ["Music Generation", "Song Creation"]
+          "tags": [
+            "Music Generation",
+            "Song Creation"
+          ]
         },
         {
           "name": "AIVA",
           "description": "AI composer for soundtracks and classical music",
           "website": "https://aiva.ai",
-          "tags": ["Classical Music", "Soundtracks"]
+          "tags": [
+            "Classical Music",
+            "Soundtracks"
+          ]
         },
         {
           "name": "Boomy",
           "description": "AI music creation platform for instant song generation",
           "website": "https://boomy.com",
-          "tags": ["Instant Music", "Publishing"]
+          "tags": [
+            "Instant Music",
+            "Publishing"
+          ]
         },
         {
           "name": "Soundraw",
           "description": "AI music generator for content creators and businesses",
           "website": "https://soundraw.io",
-          "tags": ["Content Creation", "Royalty-free"]
+          "tags": [
+            "Content Creation",
+            "Royalty-free"
+          ]
         }
       ]
     },
@@ -242,25 +326,37 @@
           "name": "Notion AI",
           "description": "AI-powered workspace for notes, docs, and project management",
           "website": "https://notion.so",
-          "tags": ["Workspace", "Note-taking"]
+          "tags": [
+            "Workspace",
+            "Note-taking"
+          ]
         },
         {
           "name": "Zapier AI",
           "description": "AI automation platform connecting apps and workflows",
           "website": "https://zapier.com",
-          "tags": ["Automation", "Workflow"]
+          "tags": [
+            "Automation",
+            "Workflow"
+          ]
         },
         {
           "name": "Monday.com AI",
           "description": "AI-enhanced project management and team collaboration",
           "website": "https://monday.com",
-          "tags": ["Project Management", "Team Collaboration"]
+          "tags": [
+            "Project Management",
+            "Team Collaboration"
+          ]
         },
         {
           "name": "ClickUp AI",
           "description": "AI-powered productivity platform for teams",
           "website": "https://clickup.com",
-          "tags": ["Task Management", "AI Assistant"]
+          "tags": [
+            "Task Management",
+            "AI Assistant"
+          ]
         }
       ]
     },
@@ -275,37 +371,55 @@
           "name": "ChatGPT",
           "description": "Conversational AI assistant for questions, writing, and problem-solving",
           "website": "https://chat.openai.com",
-          "tags": ["Conversational AI", "General Purpose"]
+          "tags": [
+            "Conversational AI",
+            "General Purpose"
+          ]
         },
         {
           "name": "Google Bard",
           "description": "Google's AI chatbot for creative and informative conversations",
           "website": "https://bard.google.com",
-          "tags": ["Google AI", "Creative Writing"]
+          "tags": [
+            "Google AI",
+            "Creative Writing"
+          ]
         },
         {
           "name": "Replika",
           "description": "AI companion for emotional support and conversation",
           "website": "https://replika.ai",
-          "tags": ["AI Companion", "Mental Health"]
+          "tags": [
+            "AI Companion",
+            "Mental Health"
+          ]
         },
         {
           "name": "Todoist AI",
           "description": "Smart task management with AI-powered scheduling and suggestions",
           "website": "https://todoist.com",
-          "tags": ["Task Management", "Smart Scheduling"]
+          "tags": [
+            "Task Management",
+            "Smart Scheduling"
+          ]
         },
         {
           "name": "Cleo",
           "description": "AI financial assistant for budgeting and money management",
           "website": "https://web.meetcleo.com",
-          "tags": ["Finance", "Budgeting"]
+          "tags": [
+            "Finance",
+            "Budgeting"
+          ]
         },
         {
           "name": "Youper",
           "description": "AI emotional health assistant for mood tracking and mental wellness",
           "website": "https://youper.ai",
-          "tags": ["Mental Health", "Mood Tracking"]
+          "tags": [
+            "Mental Health",
+            "Mood Tracking"
+          ]
         }
       ]
     }
