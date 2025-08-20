@@ -1,12 +1,22 @@
 [
-    {
-        "toolName": "Bolt.new",
-        "website": "https://bolt.new",
-        "description": " AI-powered app builder",
-        "category": "developers",
-        "tags": "code",
-        "submitterName": "",
-        "submitterEmail": "",
-        "submittedAt": "2025-06-24T15:33:33.336Z"
-    }
+  {
+    "toolName": "Bolt.new",
+    "website": "https://bolt.new",
+    "description": " AI-powered app builder",
+    "category": "developers",
+    "tags": "code",
+    "submitterName": "",
+    "submitterEmail": "",
+    "submittedAt": "2025-06-24T15:33:33.336Z"
+  },
+  {
+    "toolName": "Cline",
+    "website": "https://kilocode.ai/",
+    "description": "AI Code Editor",
+    "category": "developers",
+    "tags": "Code Assists",
+    "submitterName": "Aman",
+    "submitterEmail": "aman703jk@gmail.com",
+    "submittedAt": "2025-08-20T16:15:42.162Z"
+  }
 ]
